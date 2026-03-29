@@ -44,7 +44,7 @@ CodeMemory/
 | get_file_history_tool | Retrieve file-level history |
 | get_symbol_history_tool | Retrieve function/class-level history|
 
-##🔮 Workflow
+## 🔮 Workflow
 ```text
 Bug occurs
    ↓
