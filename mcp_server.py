@@ -7,7 +7,7 @@ from mcp.server.fastmcp import FastMCP
 
 from db import init_db, insert_change, get_file_history, get_symbol_history
 
-# STDIO MCP server 不要向 stdout 打日志
+# STDIO MCP server do not use stdout to print logs, otherwise the MCP client will receive unexpected messages. So we configure logging to write to a file instead.
 logging.basicConfig(level=logging.INFO)
 
 mcp = FastMCP("change-memory")
