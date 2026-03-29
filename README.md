@@ -45,6 +45,7 @@ CodeMemory/
 | get_symbol_history_tool | Retrieve function/class-level history|
 
 ##🔮 Workflow
+```text
 Bug occurs
    ↓
 Agent retrieves history (MCP)
@@ -54,8 +55,9 @@ Agent generates patch (guided by past patterns)
 Sandbox validation
    ↓
 Store validated change
+```
 
-## 🧠
+## 🧠 What gets stored?
 Each validated change includes:
 - file_path
 - symbol
@@ -79,5 +81,5 @@ Result:
 
 This project demonstrates that:
 - Memory changes reasoning strategy, not just output
-- Agents become more consisten, not just correct
+- Agents become more consistent, not just correct
 
